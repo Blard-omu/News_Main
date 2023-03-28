@@ -1,5 +1,5 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Poppins:wght@400;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+ 
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@
 }
 
 body{
-    /* font-size: 12.8px; */
     margin: 0 10%;
     height: auto;
     background-color: var(--off-white);
@@ -41,6 +40,7 @@ ul{
 a,p{
     color: var(--dark-grayish-blue);
     font-weight: 400;
+    font-size:15px;
 }
 a:hover{
     color: var(--soft-red);
@@ -118,9 +118,7 @@ button:hover{
 .new-text{
     width: 90%;
 }
-.new-text p{
-    font-size: 0.76rem;
-}
+
 .new h1{
     color: var(--soft-orange);
     align-self: flex-start;
@@ -131,6 +129,9 @@ button:hover{
     color: var(--off-white);
     font-size: 1rem;
     margin-bottom: 8px;
+}
+.new-text p{
+    font-size: 0.78rem;
 }
 .new-text>h3:hover{
     color: var(--soft-orange);
@@ -147,6 +148,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     margin: 4rem 0;
+    height: auto;
  }
  .footer-card{
     width: 33%;
@@ -169,14 +171,13 @@ button:hover{
 .footer-card-text h3{
     color: var(--very-dark-blue);
     font-size: 0.8rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 .footer-card-text>h3:hover{
     color: var(--soft-red);
 }
 .footer-card-text p{
-    font-size: 0.76rem;
-    font-weight: 400;
+    font-size: 0.8rem;
 }
 
 .menu{
