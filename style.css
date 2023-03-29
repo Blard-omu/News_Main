@@ -186,7 +186,7 @@ button:hover{
 }
 /* Media Query */
 
-@media (max-width: 686px){
+@media (max-width: 739px){
     ul{
         display: none;
     }
@@ -222,11 +222,14 @@ button:hover{
     }
 }
 
-@media (min-width: 686px) and (max-width: 740px) {
+@media (min-width: 739px) and (max-width: 740px) {
     
     .bright{
         width: 50%;
         font-size: 2rem;
+    }
+    button{
+        width: 75%;
     }
 }
 
