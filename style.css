@@ -222,7 +222,7 @@ button:hover{
     }
 }
 
-@media (min-width: 739px) and (max-width: 740px) {
+@media (min-width: 739px) and (max-width: 840px) {
     
     .bright{
         width: 50%;
@@ -230,20 +230,24 @@ button:hover{
     }
     button{
         width: 75%;
+        margin-top: 1rem;
     }
 }
 
 /* medium devices  ipad, tabs*/
-@media (min-width: 740px)  {
+@media (min-width: 840px)  {
     .bright{
-        width: 50%;
+        /* width: 40%; */
         font-size: 2.5rem;
     }
     .read-more{
-        width: 50%;
+        width: 55%;
     }
     .bright h1{
         font-size: 2.2rem;
+    }
+    button{
+        margin-top: 1rem;
     }
   }
   
